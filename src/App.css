@@ -60,7 +60,16 @@
   flex-direction: row;
 }
 
-.App {
+@media screen and (max-width: 800px){
+  .container{
+    width: 350px;
+  }
+  .head, .body {
+    flex-direction: column;
+  }
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -97,4 +106,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

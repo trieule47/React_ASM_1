@@ -8,7 +8,6 @@ function App() {
       <div class="head">
         <div class="col-1">
           <img src={avatar} class="avatar" />
-          cot1
         </div>
         <div class="col-2">
           <h1>LE NGOC VINH TRIEU</h1>
